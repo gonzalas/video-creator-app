@@ -1,6 +1,6 @@
 import { Injectable, UnauthorizedException } from '@nestjs/common';
-import { UsersService } from '../users/users.service';
 import { JwtService } from '@nestjs/jwt';
+import { UsersService } from '../users/users.service';
 import { isMatchPassword } from '../encryption/crypto.utils';
 
 @Injectable()
