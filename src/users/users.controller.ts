@@ -5,7 +5,7 @@ import {
   RegisterUserDTO,
   ResponseCreateUserDTO,
 } from './dto/register-user.dto';
-import { Public } from '../../decorators/public.decorator';
+import { Public } from '../decorators/public.decorator';
 import { GetUser } from './dto/get-user.dto';
 import {
   FollowingDTO,
