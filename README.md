@@ -7,12 +7,12 @@ The database is in PostgreSQL using Sequelize as ORM. For local development it i
 
 To start the server locally:
 `cd server`
-Then create a new `.env` file. Copy `.env.example` on it. 
+Then create a new `.env` file. Copy `.env.example` on it.
 Open terminal under `/server` and write:
 `docker compose up`
 `npm start`
 
-This will start the postgres database container and the server.
+This will start the postgres database container and the server. You must use a Node version 18 or above.
 
 You can check Swagger API documentation:
 `http://localhost:3000/api`
