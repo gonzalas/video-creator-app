@@ -21,3 +21,7 @@ The endpoints are protected through JWT, so you first will need to create an use
 Next, you will need to get an auth token:
 `POST /auth/login`
 Grab the token and on top of Swagger page click in `Authorize` and paste the token (do not include `bearer` word, just the token)
+
+### Unit test
+
+Run `npm run test`
