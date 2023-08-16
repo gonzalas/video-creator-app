@@ -30,7 +30,7 @@ Grab the token and on top of Swagger page click in `Authorize` and paste the tok
 
 In the docker compose file it is included a pgAdmin instance that you can access on a browser.
 The url would be `http://localhost:5050`. You can login with admin credentials: `admin@admin.com`:`pgadmin4`.
-Then create the connection instance: database name `db`, host `postgres`, user `postgres` and password `postgres`.
+Then create the connection instance: database host name `db`, maintenance database `postgres`, username `postgres` and password `postgres`.
 
 ### Unit test
 
