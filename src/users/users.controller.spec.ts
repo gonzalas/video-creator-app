@@ -2,7 +2,6 @@ import { Test, TestingModule } from '@nestjs/testing';
 import { UsersController } from './users.controller';
 import { UsersService } from './users.service';
 import { usersProviders } from './entity/users.providers';
-import { getModelToken } from '@nestjs/sequelize';
 import { User } from './entity/user.entity';
 
 const newUserMock = {
